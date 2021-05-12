@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 style="color:black; margin-left:395px; font-weight:bold;"> Image slider</h1>
+    <br>
+    <br>
+    <div cass="wrapper" style="max-width:1000px; position: relative;">
+        <img class="mySliders" src="Images/Image_1.jpg" style="width:100%;">
+        <img class="mySliders" src="Images/Image_2.jpg" style="width:100%;">
+        <img class="mySliders" src="Images/Image_3.jpg" style="width:100%;">
+        <img class="mySliders" src="Images/Image_4.jpg" style="width:100%;">
+        <img class="mySliders" src="Images/Image_5.jpg" style="width:100%;">
+        <a class="btn1" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)"><span id="btn1">&lt;</span></a>
+        <a class="btn2" style="position:absolute;top:45%;right:0;" onclick="plusDivs(1)"><span id="btn2">&gt;</span></a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
